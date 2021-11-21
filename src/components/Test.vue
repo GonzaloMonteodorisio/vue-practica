@@ -23,7 +23,7 @@
             </div>
             <br>
             <div class="input-keyup">
-                <label for="evento-keyup">Evento keyup</label>
+                <label for="evento-keyup">Evento keyup Enter</label>
                 <input type="text" v-on:keyup.enter="typedEnter" name="evento-keyup">
             </div>
         </form>
