@@ -9,7 +9,7 @@
         </div>
         <hr>
         <ul>
-            <li v-for="task in tasks">{{ task.title }}</li>
+            <li v-for="(task, index) in tasks" v-bind:key="index">{{ task.title }}</li>
         </ul>
         <form class="formulario">
             <div class="input-click">

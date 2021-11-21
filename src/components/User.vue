@@ -2,7 +2,7 @@
     <div class="users">
         <h1>User Component</h1>
         <ul>
-            <li v-for="user in users">
+            <li v-for="(user, index) in users" v-bind:key="index">
                 {{ user.name }} - {{ user.email }} 
                 <button v-on:click="deleteUser(user)">X</button>
             </li>
