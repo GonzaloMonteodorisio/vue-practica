@@ -13,6 +13,7 @@ Vue.use(VueRouter);
 
 import Test from './components/Test';
 import User from './components/User';
+import Lista from './components/Lista';
 
 const router = new VueRouter({
     mode: 'history',
@@ -25,6 +26,10 @@ const router = new VueRouter({
         {
             path: '/test',
             component: Test
+        },
+        {
+            path: '/lista',
+            component: Lista
         }
     ]
 });

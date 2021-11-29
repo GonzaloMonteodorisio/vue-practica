@@ -9,6 +9,11 @@
                     </router-link>
                 </li>
                 <li>
+                    <router-link to="/lista">
+                        Lista API
+                    </router-link>
+                </li>
+                <li>
                     <router-link to="/">
                         User
                     </router-link>
@@ -23,13 +28,15 @@
 <script>
 import Test from './components/Test.vue';
 import User from './components/User.vue';
+import Lista from './components/Lista.vue'
 
 export default {
 
     name: 'App',
     components: {
         Test,
-        User
+        User,
+        Lista
     }
 }
 </script>
